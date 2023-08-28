@@ -16,13 +16,13 @@ class ViewController: UIViewController {
 
 
     @IBAction func tableView(_ sender: Any) {
-        let tableVie = TableViewController(nibName: "TableViewController", bundle: nil)
+        let tableVie = KCTTableViewController(nibName: "KCTTableViewController", bundle: nil)
         self.navigationController?.pushViewController(tableVie, animated: true)
     }
     
     
     @IBAction func listView(_ sender: Any) {
-        let collectionVc = CollectionViewController(nibName: "CollectionViewController", bundle: nil)
+        let collectionVc = KCTCollectionViewController(nibName: "KCTCollectionViewController", bundle: nil)
         self.navigationController?.pushViewController(collectionVc, animated: true)
     }
     
