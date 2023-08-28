@@ -7,10 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4BE3084E2A989D000037B8B8 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE3084C2A989D000037B8B8 /* TableViewController.swift */; };
-		4BE3084F2A989D000037B8B8 /* TableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE3084D2A989D000037B8B8 /* TableViewController.xib */; };
-		4BE308532A989ED10037B8B8 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE308512A989ED10037B8B8 /* TableViewCell.swift */; };
-		4BE308542A989ED10037B8B8 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE308522A989ED10037B8B8 /* TableViewCell.xib */; };
+		4B5E8F032A99CFC70090EA27 /* KCTCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5E8F012A99CFC70090EA27 /* KCTCollectionViewController.swift */; };
+		4B5E8F042A99CFC70090EA27 /* KCTCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B5E8F022A99CFC70090EA27 /* KCTCollectionViewController.xib */; };
+		4B5E8F072A99CFDC0090EA27 /* KCTCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B5E8F052A99CFDC0090EA27 /* KCTCollectionViewCell.swift */; };
+		4B5E8F082A99CFDC0090EA27 /* KCTCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B5E8F062A99CFDC0090EA27 /* KCTCollectionViewCell.xib */; };
+		4BE3084E2A989D000037B8B8 /* KCTTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE3084C2A989D000037B8B8 /* KCTTableViewController.swift */; };
+		4BE3084F2A989D000037B8B8 /* KCTTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE3084D2A989D000037B8B8 /* KCTTableViewController.xib */; };
+		4BE308532A989ED10037B8B8 /* KCTTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE308512A989ED10037B8B8 /* KCTTableViewCell.swift */; };
+		4BE308542A989ED10037B8B8 /* KCTTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE308522A989ED10037B8B8 /* KCTTableViewCell.xib */; };
 		4BF6039F2A98969400F8C835 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF6039E2A98969400F8C835 /* AppDelegate.swift */; };
 		4BF603A12A98969400F8C835 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF603A02A98969400F8C835 /* SceneDelegate.swift */; };
 		4BF603A92A98969400F8C835 /* iosTableAndList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BF603A72A98969400F8C835 /* iosTableAndList.xcdatamodeld */; };
@@ -41,10 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4BE3084C2A989D000037B8B8 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
-		4BE3084D2A989D000037B8B8 /* TableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewController.xib; sourceTree = "<group>"; };
-		4BE308512A989ED10037B8B8 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
-		4BE308522A989ED10037B8B8 /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		4B5E8F012A99CFC70090EA27 /* KCTCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCTCollectionViewController.swift; sourceTree = "<group>"; };
+		4B5E8F022A99CFC70090EA27 /* KCTCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KCTCollectionViewController.xib; sourceTree = "<group>"; };
+		4B5E8F052A99CFDC0090EA27 /* KCTCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCTCollectionViewCell.swift; sourceTree = "<group>"; };
+		4B5E8F062A99CFDC0090EA27 /* KCTCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KCTCollectionViewCell.xib; sourceTree = "<group>"; };
+		4BE3084C2A989D000037B8B8 /* KCTTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCTTableViewController.swift; sourceTree = "<group>"; };
+		4BE3084D2A989D000037B8B8 /* KCTTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KCTTableViewController.xib; sourceTree = "<group>"; };
+		4BE308512A989ED10037B8B8 /* KCTTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCTTableViewCell.swift; sourceTree = "<group>"; };
+		4BE308522A989ED10037B8B8 /* KCTTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KCTTableViewCell.xib; sourceTree = "<group>"; };
 		4BF6039B2A98969400F8C835 /* iosTableAndList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosTableAndList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BF6039E2A98969400F8C835 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BF603A02A98969400F8C835 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,13 +94,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B5E8F002A99CF9D0090EA27 /* list */ = {
+			isa = PBXGroup;
+			children = (
+				4B5E8F012A99CFC70090EA27 /* KCTCollectionViewController.swift */,
+				4B5E8F022A99CFC70090EA27 /* KCTCollectionViewController.xib */,
+				4B5E8F052A99CFDC0090EA27 /* KCTCollectionViewCell.swift */,
+				4B5E8F062A99CFDC0090EA27 /* KCTCollectionViewCell.xib */,
+			);
+			path = list;
+			sourceTree = "<group>";
+		};
 		4BE308502A989E790037B8B8 /* tableView */ = {
 			isa = PBXGroup;
 			children = (
-				4BE3084C2A989D000037B8B8 /* TableViewController.swift */,
-				4BE3084D2A989D000037B8B8 /* TableViewController.xib */,
-				4BE308512A989ED10037B8B8 /* TableViewCell.swift */,
-				4BE308522A989ED10037B8B8 /* TableViewCell.xib */,
+				4BE3084C2A989D000037B8B8 /* KCTTableViewController.swift */,
+				4BE3084D2A989D000037B8B8 /* KCTTableViewController.xib */,
+				4BE308512A989ED10037B8B8 /* KCTTableViewCell.swift */,
+				4BE308522A989ED10037B8B8 /* KCTTableViewCell.xib */,
 			);
 			path = tableView;
 			sourceTree = "<group>";
@@ -120,6 +139,7 @@
 		4BF6039D2A98969400F8C835 /* iosTableAndList */ = {
 			isa = PBXGroup;
 			children = (
+				4B5E8F002A99CF9D0090EA27 /* list */,
 				4BF6039E2A98969400F8C835 /* AppDelegate.swift */,
 				4BF603A02A98969400F8C835 /* SceneDelegate.swift */,
 				4BF603D32A98971C00F8C835 /* ViewController.swift */,
@@ -254,11 +274,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B5E8F042A99CFC70090EA27 /* KCTCollectionViewController.xib in Resources */,
+				4B5E8F082A99CFDC0090EA27 /* KCTCollectionViewCell.xib in Resources */,
 				4BF603AE2A98969700F8C835 /* LaunchScreen.storyboard in Resources */,
-				4BE308542A989ED10037B8B8 /* TableViewCell.xib in Resources */,
+				4BE308542A989ED10037B8B8 /* KCTTableViewCell.xib in Resources */,
 				4BF603D62A98971C00F8C835 /* ViewController.xib in Resources */,
 				4BF603AB2A98969700F8C835 /* Assets.xcassets in Resources */,
-				4BE3084F2A989D000037B8B8 /* TableViewController.xib in Resources */,
+				4BE3084F2A989D000037B8B8 /* KCTTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,9 +307,11 @@
 			files = (
 				4BF6039F2A98969400F8C835 /* AppDelegate.swift in Sources */,
 				4BF603A92A98969400F8C835 /* iosTableAndList.xcdatamodeld in Sources */,
+				4B5E8F072A99CFDC0090EA27 /* KCTCollectionViewCell.swift in Sources */,
 				4BF603D52A98971C00F8C835 /* ViewController.swift in Sources */,
-				4BE308532A989ED10037B8B8 /* TableViewCell.swift in Sources */,
-				4BE3084E2A989D000037B8B8 /* TableViewController.swift in Sources */,
+				4BE308532A989ED10037B8B8 /* KCTTableViewCell.swift in Sources */,
+				4B5E8F032A99CFC70090EA27 /* KCTCollectionViewController.swift in Sources */,
+				4BE3084E2A989D000037B8B8 /* KCTTableViewController.swift in Sources */,
 				4BF603A12A98969400F8C835 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
